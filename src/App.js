@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import "./css/App.css"
+import "./css/Public.css"
+import LeftBarComponent from "./component/LeftBar/LeftBarComponent"
+import MainComponent from "./component/Main/MainComponent"
+import LeftButtonBoxComponent from "./component/LeftBar/FoldButtonBoxComponent"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+
+    return (
+            <React.Fragment>
+                <LeftBarComponent/>
+                <LeftButtonBoxComponent/>
+                <MainComponent/>
+            </React.Fragment>
+        )
 }
 
-export default App;
+export default App

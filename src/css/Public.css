@@ -1,0 +1,38 @@
+:root{
+    --main-color: #F7CD72;
+    --border-color: #F7CD72;
+    --hover-color: #ceae67;
+
+    --leftBar-width: 240px;
+    --leftButtonBox-radius: 48px;
+
+    --foldButtonBox-width: 20px;
+    --foldButton-height: 120px;
+    --foldButton-margin: 36px;
+
+    --border-radius: 12px;
+
+    --leftLogo-width-height: 72px;
+
+    --logo-margin: 12px;
+}
+
+html, body {
+
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+img{
+    width: 100%;
+}
+
+button{
+    padding: 0;
+    background-color: transparent;
+    border: 1px solid var(--border-color);
+}
+button:hover{
+    border-color: var(--hover-color);
+}
